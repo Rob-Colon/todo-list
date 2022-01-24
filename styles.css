@@ -160,6 +160,18 @@ select {
   background: var(--clr-light);
   color: var(--clr-white);
 }
+.attribution {
+  margin-top: 1rem;
+  text-align: center;
+  color: var(--clr-dark);
+}
+.attribution a {
+  color: var(--clr-med);
+  text-decoration: none;
+}
+.attribution a:hover {
+  color: var(--clr-light);
+}
 
 @media (max-width: 560px) {
   .app-bg {
